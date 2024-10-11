@@ -97,7 +97,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .web-dev-container {
   /* border: 2px solid navy; */
@@ -115,9 +114,10 @@ header {
   gap: 35px;
 }
 .web-dev-greetings h1 {
-  font-size: 32px;
-  font-weight: 933;
+  font-size: 43px;
+  font-weight: 1000;
   color: rgb(13, 19, 33);
+
 }
 .web-dev-greetings div {
   font-size: 16px;
@@ -174,8 +174,10 @@ header {
   gap: 50px;
 }
 
-.dev-box-content h2 {
+.dev-box-content h1 {
   color: rgba(13, 19, 33, 0.7);
+  font-size: 32px;
+  font-weight: 933;
 }
 .dev-box-content div {
   opacity: 0.7;
@@ -207,7 +209,6 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 50px;
-  
 }
 
 .dev-box-img-2 {
@@ -215,8 +216,10 @@ header {
   width: 20%;
 }
 
-.dev-box-content-2 h2 {
+.dev-box-content-2 h1 {
   color: rgba(13, 19, 33, 0.7);
+  font-size: 32px;
+  font-weight: 933;
 }
 .dev-box-content-2 div {
   opacity: 0.7;
@@ -228,14 +231,9 @@ header {
 }
 /*  */
 
-
-
-
-
-
 /* footer-styles */
-.footer-parent-container{
-  background-color: #F7F8F8;
+.footer-parent-container {
+  background-color: #f7f8f8;
   max-width: 1920px;
   height: 133px;
   margin: 0 auto;
@@ -243,24 +241,70 @@ header {
   justify-content: center;
   align-items: center;
 }
-.footer-parent{
+.footer-parent {
   /* border: 1px solid orange; */
   width: 80%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
-.footer-parent p{
+.footer-parent p {
   color: rgb(13, 19, 33);
   font-size: 27px;
-font-weight: 800;
+  font-weight: 800;
 }
-.icon-container{
+.icon-container {
   display: flex;
-  gap: 32px; 
+  gap: 32px;
 }
-.icon-container a{
+.icon-container a {
   cursor: pointer;
+}
+
+/* inspaire styles */
+
+.inspair-container {
+  /* border: 2px solid black; */
+  width: 1520px;
+  height: 1033px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inspair-text {
+  /* border: 2px solid salmon; */
+  height: 20%;
+  text-align: center;
+}
+
+.inspair-text h1 {
+  font-size: 43px;
+  font-weight: 1067;
+  color: rgb(13, 19, 33);
+}
+.inspair-text p {
+  font-size: 21px;
+  font-weight: 533px;
+  color: rgb(13, 19, 33);
+  margin-top: 32px;
+  opacity: 0.7;
+
+}
+.inspair-video {
+  /* border: 3px solid green; */
+  height: 70%;
+  width: 79%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid rgba(13, 19, 33, 0.2);
+  border-radius: 21px;
+}
+.inspair-video iframe{
+  border-radius: 21px;
 }
