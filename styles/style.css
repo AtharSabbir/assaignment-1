@@ -80,6 +80,7 @@ header {
   border: none;
   border-radius: 8px;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 /* web-dev-styles */
@@ -196,6 +197,7 @@ header {
   padding: 16px 27px 16px 27px;
   font-size: 27px;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .dev-box-content-2 {
@@ -225,3 +227,40 @@ header {
   font-family: Azeret Mono;
 }
 /*  */
+
+
+
+
+
+
+/* footer-styles */
+.footer-parent-container{
+  background-color: #F7F8F8;
+  max-width: 1920px;
+  height: 133px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-parent{
+  /* border: 1px solid orange; */
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.footer-parent p{
+  color: rgb(13, 19, 33);
+  font-size: 27px;
+font-weight: 800;
+}
+.icon-container{
+  display: flex;
+  gap: 32px; 
+}
+.icon-container a{
+  cursor: pointer;
+}
