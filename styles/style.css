@@ -15,6 +15,7 @@ body {
 header {
   max-width: 1920px;
   height: 870px;
+  /* margin: 0 auto; */
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
@@ -117,7 +118,6 @@ header {
   font-size: 43px;
   font-weight: 1000;
   color: rgb(13, 19, 33);
-
 }
 .web-dev-greetings div {
   font-size: 16px;
@@ -291,7 +291,6 @@ header {
   color: rgb(13, 19, 33);
   margin-top: 32px;
   opacity: 0.7;
-
 }
 .inspair-video {
   /* border: 3px solid green; */
@@ -305,6 +304,93 @@ header {
   border: 2px solid rgba(13, 19, 33, 0.2);
   border-radius: 21px;
 }
-.inspair-video iframe{
+.inspair-video iframe {
   border-radius: 21px;
+}
+
+/* current-styles */
+
+.current-parent {
+  /* border: 2px solid blueviolet; */
+  width: 1520px;
+  height: 613px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current-text {
+  height: 20%;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.current-text h1 {
+  font-size: 43px;
+  font-weight: 1067;
+  color: rgb(13, 19, 33);
+}
+.current-text p {
+  font-size: 21px;
+  font-weight: 533px;
+  color: rgb(13, 19, 33);
+  margin-top: 32px;
+  opacity: 0.7;
+}
+.current-card-parent {
+  /* border: 2px solid tan; */
+  height: 400px;
+  width: 1520px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  /* border: 1px solid gray; */
+  margin-top: 25px;
+  width: 485px;
+  height: 450px;
+  padding: 53px;
+  border-radius: 16px;
+  gap: 43px;
+}
+
+.card-1{
+  background-color: #FFF6F4;
+}
+
+.card-2{
+  background-color: #F2F6FE;
+}
+
+.card-3{
+  background-color: #FFFDF2;
+}
+.current-card-inside {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.current-card-inside img {
+  width: 35%;
+}
+.current-card-inside h6 {
+  font-size: 18px;
+  font-weight: 900;
+  color: rgb(13, 19, 33);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.current-card-inside p {
+  color: rgb(13, 19, 33);
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 35px;
+  opacity: 0.7;
 }
