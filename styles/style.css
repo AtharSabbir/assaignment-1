@@ -64,6 +64,7 @@ header {
   margin: 10px 0;
 }
 .banner-content div {
+  color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -71,6 +72,12 @@ header {
 }
 #btn-container {
   position: center;
+  color: white;
+}
+
+#btn-container button> a{
+  text-decoration: none;
+  color: white;
 }
 #btn-container button {
   padding: 21px 24px;
@@ -231,37 +238,6 @@ header {
 }
 /*  */
 
-/* footer-styles */
-.footer-parent-container {
-  background-color: #f7f8f8;
-  max-width: 1920px;
-  height: 133px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer-parent {
-  /* border: 1px solid orange; */
-  width: 80%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.footer-parent p {
-  color: rgb(13, 19, 33);
-  font-size: 27px;
-  font-weight: 800;
-}
-.icon-container {
-  display: flex;
-  gap: 32px;
-}
-.icon-container a {
-  cursor: pointer;
-}
-
 /* inspaire styles */
 
 .inspair-container {
@@ -360,16 +336,16 @@ header {
   gap: 43px;
 }
 
-.card-1{
-  background-color: #FFF6F4;
+.card-1 {
+  background-color: #fff6f4;
 }
 
-.card-2{
-  background-color: #F2F6FE;
+.card-2 {
+  background-color: #f2f6fe;
 }
 
-.card-3{
-  background-color: #FFFDF2;
+.card-3 {
+  background-color: #fffdf2;
 }
 .current-card-inside {
   display: flex;
@@ -393,4 +369,92 @@ header {
   font-weight: 500;
   line-height: 35px;
   opacity: 0.7;
+}
+
+.support-parent {
+  background-image: url("/B10A1-Challenge-Begins/assets/handshake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  width: 1520px;
+  height: 417px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: center;
+}
+.support-content {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.support-content h1 {
+  width: 450px;
+  height: 46px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 36px;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+.support-content p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.support-inpt-container input {
+  width: 500px;
+  height: 40px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 8px;
+}
+#submit-btn {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* footer-styles */
+.footer-parent-container {
+  background-color: #f7f8f8;
+  max-width: 1920px;
+  height: 133px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-parent {
+  /* border: 1px solid orange; */
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-parent p {
+  color: rgb(13, 19, 33);
+  font-size: 27px;
+  font-weight: 800;
+}
+.icon-container {
+  display: flex;
+  gap: 32px;
+}
+.icon-container a {
+  cursor: pointer;
 }
