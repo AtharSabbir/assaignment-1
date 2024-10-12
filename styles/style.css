@@ -12,6 +12,40 @@ body {
 }
 
 /* banner-style */
+
+.top-section-container {
+  width: 1520px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+}
+.top-section-container h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 44px;
+}
+
+#dwnld-btn {
+  box-sizing: border-box;
+  border: 2px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  padding: 17px 24px 17px 24px;
+  opacity: 0.8;
+  width: 344px;
+  height: 90px;
+  color: rgb(13, 19, 33);
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 30px;
+  font-family: Azeret Mono;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
 header {
   max-width: 1920px;
   height: 870px;
@@ -75,7 +109,7 @@ header {
   color: white;
 }
 
-#btn-container button> a{
+#btn-container button > a {
   text-decoration: none;
   color: white;
 }
@@ -372,7 +406,7 @@ header {
 }
 
 .support-parent {
-  background-image: url("../B10A1-Challenge-Begins/assets/handshake.jpg");
+  background-image: url("../B10A1-Challenge-Begins/assets/handshake.jpg"); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -383,6 +417,7 @@ header {
   display: flex;
   justify-content: center;
 }
+
 .support-content {
   margin: 0 auto;
   text-align: center;
