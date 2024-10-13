@@ -390,7 +390,7 @@ header {
 .current-card-inside img {
   width: 35%;
 }
-.current-card-inside h6 {
+.current-card-inside a {
   font-size: 18px;
   font-weight: 900;
   color: rgb(13, 19, 33);
@@ -404,6 +404,10 @@ header {
   line-height: 35px;
   opacity: 0.7;
 }
+
+
+
+/* support-styles */
 
 .support-parent {
   background-image: url("../B10A1-Challenge-Begins/assets/handshake.jpg"); 
