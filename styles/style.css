@@ -241,6 +241,8 @@ header {
   font-size: 27px;
   font-weight: 800;
   cursor: pointer;
+  text-decoration: none;
+  color: rgb(13, 19, 33);
 }
 
 .dev-box-content-2 {
@@ -292,8 +294,10 @@ header {
 
 .inspair-text h1 {
   font-size: 43px;
-  font-weight: 1067;
+  font-weight: 1000;
   color: rgb(13, 19, 33);
+
+  
 }
 .inspair-text p {
   font-size: 21px;
@@ -338,7 +342,7 @@ header {
 
 .current-text h1 {
   font-size: 43px;
-  font-weight: 1067;
+  font-weight: 1000;
   color: rgb(13, 19, 33);
 }
 .current-text p {
